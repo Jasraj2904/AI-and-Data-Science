@@ -1,0 +1,8 @@
+file = open("Test.txt", "w")
+file.write("Hello, this is my first file.\n")
+file.write("Learning Python file handling.")
+file.close()
+file = open("Test.txt", "r")
+content = file.read()
+print("File Content:\n", content)
+file.close()
