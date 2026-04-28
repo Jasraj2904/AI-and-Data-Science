@@ -1,6 +1,0 @@
-file = open("Test.txt", "a")
-file.write("\nThis line is added later.")
-file.close()
-file = open("Test.txt", "r")
-print("Updated Content:\n", file.read())
-file.close()
