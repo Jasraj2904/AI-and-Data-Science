@@ -1,0 +1,8 @@
+file = open("Sample Text.txt", "r")
+print(file.read())
+file.close()
+file = open("Sample Text.txt", "r")
+print(file.read(10))
+file.close()
+file = open("Sample Text.txt", "r")
+print(file.readline())
